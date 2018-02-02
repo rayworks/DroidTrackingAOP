@@ -34,7 +34,7 @@ public final class TrackingDelegator {
      */
     @Trackable(TargetScope.STATE)
     public void trackState(String key, Map<String, Object> values) {
-        DroidTrackerImpl.fromOmniture().trackState(key, values);
+        // logic covered by aspectJ
     }
 }
 
